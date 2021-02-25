@@ -1,0 +1,62 @@
+{
+  "elements": [
+    {
+      "id": "image",
+      "data": {
+        "type": "image",
+        "content": "https://hatrabbits.com/wp-content/uploads/2018/10/risky-assumptions.jpg"
+      },
+      "width": {
+        "mode": "pixel",
+        "value": 100
+      },
+      "position": {
+        "anchors": [
+          "top",
+          "left"
+        ],
+        "relativity": {
+          "type": "parent"
+        }
+      }
+    },
+    {
+      "id": "summary",
+      "data": {
+        "type": "text",
+        "content": "Some text"
+      },
+      "width": {
+        "mode": "fill"
+      },
+      "position": {
+        "anchors": [
+          "right"
+        ],
+        "relativity": {
+          "type": "layout",
+          "referenceIds": ["image"],
+          "alignment": "top"
+        }
+      }
+    },
+    {
+      "id": "date",
+      "data": {
+        "type": "date",
+        "content": "2021-02-19T04:42:29Z"
+      },
+      "width": {
+        "mode": "fill"
+      },
+      "position": {
+        "anchors": ["bottom"],
+        "relativity": {
+          "type": "layout",
+          "referenceIds": ["summary", "image"],
+          "alignment": "left"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1BBAB0C0-7489-44F2-8CB1-B574346159B4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3084178D-8C70-4FB7-A9DA-3CE2A04D9776"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "align(for:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBA0FCAD-708F-43F7-BB0D-C3F752028CD8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "align(for:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BBA0FCAD-708F-43F7-BB0D-C3F752028CD8 - 3877ae9d5beed989"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.start() -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "246">
+               </Location>
+               <Location
+                  uuid = "BBA0FCAD-708F-43F7-BB0D-C3F752028CD8 - 3877ae9d5beed989"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.start() -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "278">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F77E0855-5ABE-4F27-9B23-FDF494939FD2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "readFile(from:of:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DD83139-C20B-4574-A761-BCF4DB7F10ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "readFile(from:of:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7DD83139-C20B-4574-A761-BCF4DB7F10ED - a375b48741a2e10a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomLayout.ViewModel.readFile((Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7DD83139-C20B-4574-A761-BCF4DB7F10ED - ec4a4a80aeeb411e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.readFile((Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFCA868A-87A7-4627-9007-EC4187854EF6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "align(for:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CFCA868A-87A7-4627-9007-EC4187854EF6 - 7552468b7c2cdc8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomLayout.ViewModel.start() -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "CFCA868A-87A7-4627-9007-EC4187854EF6 - 3877ae9d5beed9cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.start() -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "190">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A64EA1B3-9588-4E0E-AC3C-D8C0B390C02C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/FileReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "read(from:ofType:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB544219-12D7-4968-9245-AE6311E04C82"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/FileReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "read(from:ofType:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECB6966D-0F80-4144-9E07-5114602D0182"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "align(for:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38CBDEB3-303F-4527-8D83-920799DCC0C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "align(for:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB52799B-AFE9-44B7-B89A-0BB6E24E59B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "decode(data:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "816E03AC-3A1A-4354-924F-5CA940A6F841"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "decode(data:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "816E03AC-3A1A-4354-924F-5CA940A6F841 - 14f0bda8e8bc4962"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;CustomLayout.LayoutObjectsContentArray, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.decode(data: Swift.Optional&lt;Foundation.Data&gt;, _: (Swift.Result&lt;Swift.Array&lt;CustomLayout.LayoutObject&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "816E03AC-3A1A-4354-924F-5CA940A6F841 - b8cfebf5e837607f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (CustomLayout.LayoutObjectContent) -&gt; CustomLayout.LayoutObject in closure #1 (Swift.Result&lt;CustomLayout.LayoutObjectsContentArray, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.decode(data: Swift.Optional&lt;Foundation.Data&gt;, _: (Swift.Result&lt;Swift.Array&lt;CustomLayout.LayoutObject&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B224C1EC-CEB7-4747-B824-3D330B54F815"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/JsonDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "decode(jsonData:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBF18221-EE57-4278-B86D-C4283B2DAC7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/JsonDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "decode(jsonData:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "113E3C6B-8DAA-45E3-AB97-DA2F83654897"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/JsonDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "decode(jsonData:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D6CFE94-1231-4A3D-A2A7-ADA307C742BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/LayoutElementContent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "init(content:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BDB1F04-29FE-42F3-9895-DB1D0347DE9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/Cassovary/SimpexSolver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "resolve(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9BDB1F04-29FE-42F3-9895-DB1D0347DE9D - 106c1a4705587e69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (CustomLayout.Constraint) -&gt; () in CustomLayout.SimpexSolverService.resolve(for: __C.CGRect) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/Model/Cassovary/SimpexSolver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "9BDB1F04-29FE-42F3-9895-DB1D0347DE9D - 9196aeb938f71992"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (CustomLayout.ConstraintComponent) -&gt; () in closure #1 (CustomLayout.Constraint) -&gt; () in CustomLayout.SimpexSolverService.resolve(for: __C.CGRect) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/Model/Cassovary/SimpexSolver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28EEFCDE-C298-44C5-AD8C-56AB38E7D97D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/Cassovary/SimpexSolver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "resolve(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "28EEFCDE-C298-44C5-AD8C-56AB38E7D97D - 9196aeb938f71916"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (CustomLayout.ConstraintComponent) -&gt; () in closure #1 (CustomLayout.Constraint) -&gt; () in CustomLayout.SimpexSolverService.resolve(for: __C.CGRect) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/Model/Cassovary/SimpexSolver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "28EEFCDE-C298-44C5-AD8C-56AB38E7D97D - cbd84b343046b820"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (CustomLayout.Variable) -&gt; Swift.Bool in closure #1 (CustomLayout.ConstraintComponent) -&gt; () in closure #1 (CustomLayout.Constraint) -&gt; () in CustomLayout.SimpexSolverService.resolve(for: __C.CGRect) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/Model/Cassovary/SimpexSolver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C761D044-7167-43A4-B4FF-08EE075756BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/Cassovary/SimpexSolver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "resolve(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "988A59E5-161A-41C8-B3C6-FF6083E5A7B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayoutTests/DataTranslatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "testDataTranslatorInit()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13D065D5-D85E-42E4-91E5-FCCC004ECBA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "displayLayout(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77513523-C541-475D-8591-197D924A0AEC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "displayLayout(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "77513523-C541-475D-8591-197D924A0AEC - 48bc20cd55c69110"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomLayout.ViewController.(displayLayout in _59E712A37206A70E852B53DDC82F2D29)(Swift.Array&lt;CustomLayout.LayoutDisplayItem&gt;) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "358">
+               </Location>
+               <Location
+                  uuid = "77513523-C541-475D-8591-197D924A0AEC - da5e72d213c3904b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (CustomLayout.LayoutDisplayItem) -&gt; () in CustomLayout.ViewController.(displayLayout in _59E712A37206A70E852B53DDC82F2D29)(Swift.Array&lt;CustomLayout.LayoutDisplayItem&gt;) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F69E7B6-C592-4CB2-8348-51B5EC8CFDF1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/Cassovary/SimpexSolver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "resolve(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1198863D-B17E-41A4-B1B4-C847F92F84DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/Cassovary/SimpexSolver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "resolve(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1198863D-B17E-41A4-B1B4-C847F92F84DC - c0ab399ac98e77da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (CustomLayout.Constraint) -&gt; () in CustomLayout.SimpexSolverService.resolve(for: __C.CGRect) -&gt; Swift.Array&lt;CustomLayout.Variable&gt;"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/Model/Cassovary/SimpexSolver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "1506">
+               </Location>
+               <Location
+                  uuid = "1198863D-B17E-41A4-B1B4-C847F92F84DC - b345901abc23a488"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (CustomLayout.Variable) -&gt; () in closure #1 (CustomLayout.Constraint) -&gt; () in CustomLayout.SimpexSolverService.resolve(for: __C.CGRect) -&gt; Swift.Array&lt;CustomLayout.Variable&gt;"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/Model/Cassovary/SimpexSolver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "153">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
