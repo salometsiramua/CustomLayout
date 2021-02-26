@@ -18,6 +18,7 @@
 		F1080B9825E6A716005DC4A6 /* SimpexSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1080B9725E6A716005DC4A6 /* SimpexSolverTests.swift */; };
 		F1080B9D25E78339005DC4A6 /* ConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1080B9C25E78339005DC4A6 /* ConstraintTests.swift */; };
 		F1080BA225E7834A005DC4A6 /* DataTranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1080BA125E7834A005DC4A6 /* DataTranslatorTests.swift */; };
+		F15B366625E94C6400A88578 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B366525E94C6400A88578 /* ViewModelTests.swift */; };
 		F18B8E3825E7B78500D755A3 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8E3725E7B78500D755A3 /* ImageDownloader.swift */; };
 		F18B8E3E25E7C4AE00D755A3 /* SimpexSolverMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8E3D25E7C4AE00D755A3 /* SimpexSolverMock.swift */; };
 		F18B8E4625E8E58C00D755A3 /* DataTranslatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8E4525E8E58C00D755A3 /* DataTranslatorMock.swift */; };
@@ -65,6 +66,7 @@
 		F1080B9725E6A716005DC4A6 /* SimpexSolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpexSolverTests.swift; sourceTree = "<group>"; };
 		F1080B9C25E78339005DC4A6 /* ConstraintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintTests.swift; sourceTree = "<group>"; };
 		F1080BA125E7834A005DC4A6 /* DataTranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTranslatorTests.swift; sourceTree = "<group>"; };
+		F15B366525E94C6400A88578 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 		F18B8E3725E7B78500D755A3 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		F18B8E3D25E7C4AE00D755A3 /* SimpexSolverMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpexSolverMock.swift; sourceTree = "<group>"; };
 		F18B8E4525E8E58C00D755A3 /* DataTranslatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTranslatorMock.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				F1080B9725E6A716005DC4A6 /* SimpexSolverTests.swift */,
 				F1080B9C25E78339005DC4A6 /* ConstraintTests.swift */,
 				F1080BA125E7834A005DC4A6 /* DataTranslatorTests.swift */,
+				F15B366525E94C6400A88578 /* ViewModelTests.swift */,
 			);
 			path = CustomLayoutTests;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				F1B6EE6325E404D800CD4DAD /* CustomLayoutTests.swift in Sources */,
 				F18B8E4B25E8E5D200D755A3 /* FileReaderMock.swift in Sources */,
 				F1080B9D25E78339005DC4A6 /* ConstraintTests.swift in Sources */,
+				F15B366625E94C6400A88578 /* ViewModelTests.swift in Sources */,
 				F1080BA225E7834A005DC4A6 /* DataTranslatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

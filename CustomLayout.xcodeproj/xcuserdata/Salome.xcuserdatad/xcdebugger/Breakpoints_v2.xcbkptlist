@@ -56,7 +56,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F77E0855-5ABE-4F27-9B23-FDF494939FD2"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CustomLayout/ViewController/ViewModel.swift"
@@ -184,7 +184,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "EB52799B-AFE9-44B7-B89A-0BB6E24E59B4"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CustomLayout/ViewController/ViewModel.swift"
@@ -200,7 +200,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "816E03AC-3A1A-4354-924F-5CA940A6F841"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CustomLayout/ViewController/ViewModel.swift"
@@ -212,34 +212,34 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "816E03AC-3A1A-4354-924F-5CA940A6F841 - 14f0bda8e8bc4962"
+                  uuid = "816E03AC-3A1A-4354-924F-5CA940A6F841 - ff35cde233c92938"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;CustomLayout.LayoutObjectsContentArray, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.decode(data: Swift.Optional&lt;Foundation.Data&gt;, _: (Swift.Result&lt;Swift.Array&lt;CustomLayout.LayoutObject&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Result&lt;CustomLayout.LayoutObjectsContentArray, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.(decode in _6A4560FE058B8979858E42CC97CDF538)(data: Swift.Optional&lt;Foundation.Data&gt;, _: (Swift.Result&lt;Swift.Array&lt;CustomLayout.LayoutObject&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "CustomLayout"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "176">
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "235">
                </Location>
                <Location
-                  uuid = "816E03AC-3A1A-4354-924F-5CA940A6F841 - b8cfebf5e837607f"
+                  uuid = "816E03AC-3A1A-4354-924F-5CA940A6F841 - 9c93a27bc8f48b3c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (CustomLayout.LayoutObjectContent) -&gt; CustomLayout.LayoutObject in closure #1 (Swift.Result&lt;CustomLayout.LayoutObjectsContentArray, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.decode(data: Swift.Optional&lt;Foundation.Data&gt;, _: (Swift.Result&lt;Swift.Array&lt;CustomLayout.LayoutObject&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (CustomLayout.LayoutObjectContent) -&gt; CustomLayout.LayoutObject in closure #1 (Swift.Result&lt;CustomLayout.LayoutObjectsContentArray, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.(decode in _6A4560FE058B8979858E42CC97CDF538)(data: Swift.Optional&lt;Foundation.Data&gt;, _: (Swift.Result&lt;Swift.Array&lt;CustomLayout.LayoutObject&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "CustomLayout"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "30">
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "22">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -248,7 +248,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B224C1EC-CEB7-4747-B824-3D330B54F815"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CustomLayout/Model/JsonDecodable.swift"
@@ -264,7 +264,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "EBF18221-EE57-4278-B86D-C4283B2DAC7C"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CustomLayout/Model/JsonDecodable.swift"
@@ -1140,7 +1140,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "D2D18102-EC38-407C-A2F3-23CF0B07B3DF - 9fb6a439f4f06607"
+                  uuid = "D2D18102-EC38-407C-A2F3-23CF0B07B3DF - 9fb6a439f4f066c5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1150,12 +1150,12 @@
                   urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/LayoutItem.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
                   offsetFromSymbolStart = "120">
                </Location>
                <Location
-                  uuid = "D2D18102-EC38-407C-A2F3-23CF0B07B3DF - c81179e37015e1fc"
+                  uuid = "D2D18102-EC38-407C-A2F3-23CF0B07B3DF - c81179e37015e13e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1165,8 +1165,8 @@
                   urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/LayoutItem.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
                   offsetFromSymbolStart = "224">
                </Location>
             </Locations>
@@ -1236,7 +1236,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "A0D95FDF-D577-42E4-94FB-8BB0F4F4E728 - c81179e37015e093"
+                  uuid = "A0D95FDF-D577-42E4-94FB-8BB0F4F4E728 - c81179e37015e0d5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1246,12 +1246,12 @@
                   urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/LayoutItem.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
                   offsetFromSymbolStart = "468">
                </Location>
                <Location
-                  uuid = "A0D95FDF-D577-42E4-94FB-8BB0F4F4E728 - c81179e37015e093"
+                  uuid = "A0D95FDF-D577-42E4-94FB-8BB0F4F4E728 - c81179e37015e0d5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1261,8 +1261,8 @@
                   urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/LayoutItem.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
                   offsetFromSymbolStart = "482">
                </Location>
             </Locations>
@@ -1281,6 +1281,134 @@
             startingLineNumber = "45"
             endingLineNumber = "45"
             landmarkName = "configure()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CC07EAB-2AB9-4668-812B-54117521D5FC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "align(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7CC07EAB-2AB9-4668-812B-54117521D5FC - 66f046280f53f5db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomLayout.ViewModel.align((Swift.Result&lt;Swift.Bool, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "7CC07EAB-2AB9-4668-812B-54117521D5FC - 8b0d529203845007"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.align((Swift.Result&lt;Swift.Bool, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "233">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCBACA7F-6CD8-41A6-9492-C39E2E92B6DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "align(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DCBACA7F-6CD8-41A6-9492-C39E2E92B6DE - 8b0d529203845045"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.align((Swift.Result&lt;Swift.Bool, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "350">
+               </Location>
+               <Location
+                  uuid = "DCBACA7F-6CD8-41A6-9492-C39E2E92B6DE - 8b0d529203845045"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in CustomLayout.ViewModel.align((Swift.Result&lt;Swift.Bool, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CustomLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Salome/CustomLayout/CustomLayout/ViewController/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "382">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96E3840C-55F2-4486-99FC-28970777AF58"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/ViewController/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "align(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "833DAF4B-3FF9-4788-9049-8E614850CCF3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomLayout/Model/JsonDecodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "decode(jsonData:_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
