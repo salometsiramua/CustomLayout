@@ -26,9 +26,15 @@ class DataTranslatorTests: XCTestCase {
     }
     
     func testDataTranslatorWithMock() {
-        let dataTranslator = DataTranslatorService(simpexSolver: SimpexSolverMock())
+        let mock = SimpexSolverMock()
+        
+        let dataTranslator = DataTranslatorService(simpexSolver: mock)
         let layoutObject = LayoutObject(content: LayoutObjectContent(id: "id123", data: .init(type: "image", content: "url.com"), width: .init(mode: "fill", value: nil), position: .init(anchors: ["right"], relativity: .init(type: "parent", referenceIds: nil, alignment: nil))))
         dataTranslator.translate(data: [layoutObject])
+        XCTAssertTrue(mock.allRemoved)
+        XCTAssertTrue(mock.variableAdded)
+        XCTAssertTrue(mock.constraintsAdded)
+        XCTAssertTrue(dataTranslator.canLayout)
         let variables = dataTranslator.fit(to: CGRect(x: 0, y: 0, width: 100, height: 100))
         XCTAssertEqual(variables.count, 0)
     }

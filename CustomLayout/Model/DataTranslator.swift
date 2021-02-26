@@ -74,7 +74,7 @@ class DataTranslatorService: DataTranslator {
         
         let variables = simpexSolver.resolve(for: rect)
         
-        return variables.map { LayoutDisplayItem(dataType: $0.dataType, content: $0.content, rect: CGRect(x: $0.x ?? 0, y: $0.y ?? 0, width: $0.width ?? rect.width, height: $0.height ?? 0
+        return variables.map { LayoutDisplayItem(id: $0.name, dataType: $0.dataType, content: $0.content, rect: CGRect(x: $0.x ?? 0, y: $0.y ?? 0, width: $0.width ?? rect.width, height: $0.height ?? 0
         ))}
     }
 }

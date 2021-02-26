@@ -17,6 +17,6 @@ class DataTranslatorMock: DataTranslator {
     }
     
     func fit(to rect: CGRect) -> [LayoutDisplayItem] {
-        [LayoutDisplayItem(dataType: .date, content: "24.12.09", rect: CGRect(x: 0, y: 0, width: 100, height: 100))]
+        [LayoutDisplayItem(id: "2", dataType: .date, content: "24.12.09", rect: CGRect(x: 0, y: 0, width: 100, height: 100))]
     }
 }

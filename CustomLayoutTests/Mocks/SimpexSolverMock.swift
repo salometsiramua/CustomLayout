@@ -13,16 +13,20 @@ class SimpexSolverMock: SimpexSolver {
     var variables: [Variable] = []
     var constrainst: [ConstraintComponent] = []
     
+    var variableAdded: Bool = false
+    var constraintsAdded: Bool = false
+    var allRemoved: Bool = false
+    
     init() {
         
     }
     
     func addVariable(_ variable: Variable) {
-        variables.append(variable)
+        variableAdded = true
     }
     
     func addConstraintComponents(componentOne: ConstraintComponent, componentTwo: ConstraintComponent, axis: Axis) {
-        constrainst.append(componentOne)
+        constraintsAdded = true
     }
     
     func resolve(for frame: CGRect) -> [Variable] {
@@ -30,6 +34,6 @@ class SimpexSolverMock: SimpexSolver {
     }
     
     func removeAll() {
-        variables.removeAll()
+        allRemoved = true
     }
 }

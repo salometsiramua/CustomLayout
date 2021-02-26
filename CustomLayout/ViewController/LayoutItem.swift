@@ -8,6 +8,7 @@
 import UIKit
 
 class LayoutDisplayItem {
+    let id: String
     let dataType: DataType
     let content: String
     let frame: CGRect
@@ -16,7 +17,8 @@ class LayoutDisplayItem {
     
     private let imageDownloader: ImageDownloader
     
-    init(dataType: DataType, content: String, rect: CGRect, imageDownloader: ImageDownloader = ImageDownloaderService(), style: UIFont = .systemFont(ofSize: 16)) {
+    init(id: String, dataType: DataType, content: String, rect: CGRect, imageDownloader: ImageDownloader = ImageDownloaderService(), style: UIFont = .systemFont(ofSize: 16)) {
+        self.id = id
         self.dataType = dataType
         self.content = content
         self.frame = rect

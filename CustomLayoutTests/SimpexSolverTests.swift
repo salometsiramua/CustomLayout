@@ -32,4 +32,19 @@ class SimpexSolverTests: XCTestCase {
         XCTAssertEqual(variables[0].width, 100)
         XCTAssertNil(variables[0].x)
     }
+    
+    func testSimplexSolverWithComplexConstraints() {
+        let simpexSolver = initSimpexSolver()
+        simpexSolver.addVariable(Variable(dataType: .text, content: "some text", widthType: .fixed(value: 23), name: "1"))
+        simpexSolver.addVariable(Variable(dataType: .text, content: "some text", widthType: .fixed(value: 23), name: "2"))
+        simpexSolver.addVariable(Variable(dataType: .text, content: "some text", widthType: .fill, name: "3"))
+        simpexSolver.addVariable(Variable(dataType: .text, content: "some text", widthType: .fixed(value: 23), name: "4"))
+        simpexSolver.addConstraintComponents(componentOne: ConstraintComponent.parent, componentTwo: ConstraintComponent.variable(withId: "1"), axis: .horizontal)
+        simpexSolver.addConstraintComponents(componentOne: ConstraintComponent.variable(withId: "3"), componentTwo: ConstraintComponent.variable(withId: "4"), axis: .horizontal)
+        simpexSolver.addConstraintComponents(componentOne: ConstraintComponent.variable(withId: "2"), componentTwo: ConstraintComponent.variable(withId: "3"), axis: .horizontal)
+        simpexSolver.addConstraintComponents(componentOne: ConstraintComponent.variable(withId: "1"), componentTwo: ConstraintComponent.variable(withId: "2"), axis: .horizontal)
+        let variables = simpexSolver.resolve(for: CGRect(x: 0, y: 0, width: 200, height: 100))
+        XCTAssertEqual(variables.count, 5)
+        XCTAssertEqual(variables[3].width, 131)
+    }
 }
