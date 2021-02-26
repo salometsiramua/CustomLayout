@@ -9,12 +9,18 @@ import UIKit
 
 protocol ViewModelable {
     var dataTranslator: DataTranslator { get }
-    func align(for rect: CGRect, _ callback: @escaping (Result<[LayoutDisplayItem], Error>) -> Void)
+    func align(_ callback: @escaping (Result<Bool, Error>) -> Void)
+    func fit(to rect: CGRect) -> [LayoutDisplayItem]
 }
 
 extension ViewModelable {
-    func translate(data: [LayoutObject], for rect: CGRect) -> [LayoutDisplayItem] {
-        return dataTranslator.translate(data: data, for: rect)
+    
+    func translate(data: [LayoutObject]) {
+        dataTranslator.translate(data: data)
+    }
+    
+    func fit(to rect: CGRect) -> [LayoutDisplayItem] {
+        return dataTranslator.fit(to: rect)
     }
 }
 
@@ -22,10 +28,9 @@ final class ViewModel: ViewModelable {
     
     private let fileReader: FileReader
     private let elementsDecoder: ElementsDecoder
-    let dataTranslator: DataTranslator
-    private var rect: CGRect?
     private let filePath: String
     private let type: String
+    let dataTranslator: DataTranslator
     
     typealias JsonCallBack = (Result<Data, Error>) -> Void
     typealias MappedResult = ((Result<Array<LayoutObject>, Error>) -> Void)
@@ -42,17 +47,15 @@ final class ViewModel: ViewModelable {
         self.type = type
     }
     
-    func align(for rect: CGRect, _ callback: @escaping ((Result<[LayoutDisplayItem], Error>) -> Void)) {
-        self.rect = rect
+    func align(_ callback: @escaping ((Result<Bool, Error>) -> Void)) {
         readFile(from: filePath, of: type) { [weak self] (result) in
             switch result {
             case .success(let data):
-                self?.decode(data: data, { [weak self] decodedResult in
-                    guard let self = self else { return }
+                self?.decode(data: data, { decodedResult in
                     switch decodedResult {
-                    case .success(let array):
-                        let result = self.translate(data: array, for: rect)
-                        callback(.success(result))
+                    case .success(let layout):
+                        self?.translate(data: layout)
+                        callback(.success(true))
                     case .failure(let error):
                         callback(.failure(error))
                     }

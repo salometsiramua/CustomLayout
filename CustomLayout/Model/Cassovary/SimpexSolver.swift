@@ -11,6 +11,7 @@ protocol SimpexSolver {
     func addVariable(_ variable: Variable)
     func addConstraintComponents(componentOne: ConstraintComponent, componentTwo: ConstraintComponent, axis: Axis)
     func resolve(for frame: CGRect) -> [Variable]
+    func removeAll()
 }
 
 class SimpexSolverService: SimpexSolver {
@@ -18,7 +19,11 @@ class SimpexSolverService: SimpexSolver {
     private var variables: [Variable] = []
     private var constraints: [Constraint] = []
     
-    init() {
+    init() { }
+    
+    func removeAll() {
+        variables.removeAll()
+        constraints.removeAll()
     }
     
     func addVariable(_ variable: Variable) {
@@ -37,30 +42,25 @@ class SimpexSolverService: SimpexSolver {
                 case .parent:
                     break
                 case .variable(let id):
-                    if id == componentOne.id {
-                        constraint.insert(componentTwo, at: component.offset + 1)
-                        guard let updatedConstraint = addedToConstraint else {
-                            addedToConstraint = constraint
-                            return
-                        }
-                        constraint.concatenate(with: updatedConstraint)
-                    } else if id == componentTwo.id {
-                        constraint.insert(componentOne, at: component.offset)
-                        guard let updatedConstraint = addedToConstraint else {
-                            addedToConstraint = constraint
-                            return
-                        }
-                        constraint.concatenate(with: updatedConstraint)
+                    guard id == componentOne.id || id == componentTwo.id else {
+                        return
                     }
+                    let componentToAdd = id == componentOne.id ? componentTwo : componentOne
+                    let index = id == componentOne.id ? component.offset + 1 : component.offset
+                    
+                    constraint.insert(componentToAdd, at: index)
+                    guard let updatedConstraint = addedToConstraint else {
+                        addedToConstraint = constraint
+                        return
+                    }
+                    constraint.concatenate(with: updatedConstraint)
                 }
             }
         }
         
-        guard addedToConstraint == nil else {
-            return
+        if addedToConstraint == nil {
+            constraints.append(Constraint(components: [componentOne, componentTwo], axis: axis))
         }
-        
-        constraints.append(Constraint(components: [componentOne, componentTwo], axis: axis))
     }
     
     func resolve(for frame: CGRect) -> [Variable] {

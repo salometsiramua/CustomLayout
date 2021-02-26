@@ -17,7 +17,8 @@ class DataTranslatorTests: XCTestCase {
     func testDataTranslatorInit() {
         let dataTranslator = initDataTranslator()
         let layoutObject = LayoutObject(content: LayoutObjectContent(id: "id123", data: .init(type: "image", content: "url.com"), width: .init(mode: "fill", value: nil), position: .init(anchors: ["right"], relativity: .init(type: "parent", referenceIds: nil, alignment: nil))))
-        let result = dataTranslator.translate(data: [layoutObject], for: CGRect(x: 0, y: 0, width: 100, height: 100))
+        dataTranslator.translate(data: [layoutObject])
+        let result = dataTranslator.fit(to: CGRect(x: 0, y: 0, width: 100, height: 100))
         XCTAssertEqual(result.count, 1)
         XCTAssertEqual(result[0].dataType, .image)
         XCTAssertEqual(result[0].frame.width, 100)
@@ -27,7 +28,8 @@ class DataTranslatorTests: XCTestCase {
     func testDataTranslatorWithMock() {
         let dataTranslator = DataTranslatorService(simpexSolver: SimpexSolverMock())
         let layoutObject = LayoutObject(content: LayoutObjectContent(id: "id123", data: .init(type: "image", content: "url.com"), width: .init(mode: "fill", value: nil), position: .init(anchors: ["right"], relativity: .init(type: "parent", referenceIds: nil, alignment: nil))))
-        let variables = dataTranslator.translate(data: [layoutObject], for: CGRect(x: 0, y: 0, width: 100, height: 100))
+        dataTranslator.translate(data: [layoutObject])
+        let variables = dataTranslator.fit(to: CGRect(x: 0, y: 0, width: 100, height: 100))
         XCTAssertEqual(variables.count, 0)
     }
 }

@@ -21,6 +21,8 @@
 		F1080BA725E78356005DC4A6 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1080BA625E78356005DC4A6 /* ViewModelTests.swift */; };
 		F18B8E3825E7B78500D755A3 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8E3725E7B78500D755A3 /* ImageDownloader.swift */; };
 		F18B8E3E25E7C4AE00D755A3 /* SimpexSolverMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8E3D25E7C4AE00D755A3 /* SimpexSolverMock.swift */; };
+		F18B8E4625E8E58C00D755A3 /* DataTranslatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8E4525E8E58C00D755A3 /* DataTranslatorMock.swift */; };
+		F18B8E4B25E8E5D200D755A3 /* FileReaderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8E4A25E8E5D200D755A3 /* FileReaderMock.swift */; };
 		F1B6EE4925E404D300CD4DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6EE4825E404D300CD4DAD /* AppDelegate.swift */; };
 		F1B6EE4B25E404D300CD4DAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6EE4A25E404D300CD4DAD /* SceneDelegate.swift */; };
 		F1B6EE4D25E404D300CD4DAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6EE4C25E404D300CD4DAD /* ViewController.swift */; };
@@ -67,6 +69,8 @@
 		F1080BA625E78356005DC4A6 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 		F18B8E3725E7B78500D755A3 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		F18B8E3D25E7C4AE00D755A3 /* SimpexSolverMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpexSolverMock.swift; sourceTree = "<group>"; };
+		F18B8E4525E8E58C00D755A3 /* DataTranslatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTranslatorMock.swift; sourceTree = "<group>"; };
+		F18B8E4A25E8E5D200D755A3 /* FileReaderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderMock.swift; sourceTree = "<group>"; };
 		F1B6EE4525E404D300CD4DAD /* CustomLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B6EE4825E404D300CD4DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1B6EE4A25E404D300CD4DAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +119,7 @@
 		F1080B2325E4CEDC005DC4A6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F1080B4525E4FB96005DC4A6 /* LayoutItem.swift */,
 				F1080B1E25E4CED2005DC4A6 /* ViewModel.swift */,
 				F1B6EE4C25E404D300CD4DAD /* ViewController.swift */,
 			);
@@ -140,7 +145,6 @@
 				F1B6EE8B25E41A5E00CD4DAD /* AppError.swift */,
 				F1080B1925E4CD01005DC4A6 /* FileReader.swift */,
 				F1080B3D25E4FB13005DC4A6 /* DataTranslator.swift */,
-				F1080B4525E4FB96005DC4A6 /* LayoutItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				F18B8E3D25E7C4AE00D755A3 /* SimpexSolverMock.swift */,
+				F18B8E4525E8E58C00D755A3 /* DataTranslatorMock.swift */,
+				F18B8E4A25E8E5D200D755A3 /* FileReaderMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -381,7 +387,9 @@
 			files = (
 				F18B8E3E25E7C4AE00D755A3 /* SimpexSolverMock.swift in Sources */,
 				F1080B9825E6A716005DC4A6 /* SimpexSolverTests.swift in Sources */,
+				F18B8E4625E8E58C00D755A3 /* DataTranslatorMock.swift in Sources */,
 				F1B6EE6325E404D800CD4DAD /* CustomLayoutTests.swift in Sources */,
+				F18B8E4B25E8E5D200D755A3 /* FileReaderMock.swift in Sources */,
 				F1080BA725E78356005DC4A6 /* ViewModelTests.swift in Sources */,
 				F1080B9D25E78339005DC4A6 /* ConstraintTests.swift in Sources */,
 				F1080BA225E7834A005DC4A6 /* DataTranslatorTests.swift in Sources */,

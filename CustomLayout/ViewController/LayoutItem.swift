@@ -26,8 +26,11 @@ class LayoutDisplayItem {
         switch dataType {
         case .image:
             view = UIImageView(frame: rect)
+            view.backgroundColor = .red
+            (view as? UIImageView)?.contentMode = .scaleAspectFit
         default:
             view = UILabel(frame: rect)
+            (view as? UILabel)?.numberOfLines = 0
         }
         
     }
@@ -36,11 +39,17 @@ class LayoutDisplayItem {
         switch dataType {
         case .image:
             imageDownloader.download(from: content) { [weak self] (result) in
+                guard let self = self else {
+                    return
+                }
                 switch result {
                 case .success(let image):
                     DispatchQueue.main.async {
-                        (self?.view as? UIImageView)?.image = image
-                        self?.view.layoutSubviews()
+                        guard let imageView = self.view as? UIImageView else {
+                            return
+                        }
+                        imageView.image = image
+                        imageView.frame.size = CGSize(width: self.view.frame.size.width, height: 200)
                     }
                 case .failure:
                     break

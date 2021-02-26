@@ -9,7 +9,7 @@ import UIKit
 
 class Variable {
     var widthType: Width
-    var name: String = ""
+    var name: String
     var width: CGFloat? {
         didSet {
             guard dataType != .image else {
@@ -44,11 +44,10 @@ class Variable {
     }
     
     func size(of label: String, with width: CGFloat, style: UIFont) -> CGSize {
-        let constrainedSize = CGSize(width: width , height: 9999)
         
-        let string:NSMutableAttributedString = NSMutableAttributedString(string: label, attributes: [NSAttributedString.Key.font: style])
+        let string: NSMutableAttributedString = NSMutableAttributedString(string: label, attributes: [NSAttributedString.Key.font: style])
         
-        var boundingRect = string.boundingRect(with: constrainedSize, options:.usesLineFragmentOrigin, context:nil)
+        var boundingRect = string.boundingRect(with: CGSize(width: width , height: 9999), options: .usesLineFragmentOrigin, context: nil)
         
         if (boundingRect.size.width > width) {
             boundingRect = CGRect(x: 0, y: 0, width: width, height: boundingRect.size.height);

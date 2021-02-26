@@ -8,10 +8,14 @@
 import UIKit
 
 protocol DataTranslator {
-    func translate(data: [LayoutObject], for frame: CGRect) -> [LayoutDisplayItem]
+    var canLayout: Bool { get }
+    func translate(data: [LayoutObject])
+    func fit(to rect: CGRect) -> [LayoutDisplayItem]
 }
 
 class DataTranslatorService: DataTranslator {
+    
+    var canLayout: Bool = false
     
     private let simpexSolver: SimpexSolver
     
@@ -19,7 +23,8 @@ class DataTranslatorService: DataTranslator {
         self.simpexSolver = simpexSolver
     }
     
-    func translate(data: [LayoutObject], for frame: CGRect) -> [LayoutDisplayItem] {
+    func translate(data: [LayoutObject]) {
+        simpexSolver.removeAll()
         data.forEach { (object) in
             var variable: Variable
             switch object.width {
@@ -59,9 +64,17 @@ class DataTranslatorService: DataTranslator {
             simpexSolver.addVariable(variable)
         }
         
-        let variables = simpexSolver.resolve(for: frame)
+        canLayout = true
+    }
+    
+    func fit(to rect: CGRect) -> [LayoutDisplayItem] {
+        guard canLayout == true else {
+            return []
+        }
         
-        return variables.map { LayoutDisplayItem(dataType: $0.dataType, content: $0.content, rect: CGRect(x: $0.x ?? 0, y: $0.y ?? 0, width: $0.width ?? frame.width, height: $0.height ?? 0
+        let variables = simpexSolver.resolve(for: rect)
+        
+        return variables.map { LayoutDisplayItem(dataType: $0.dataType, content: $0.content, rect: CGRect(x: $0.x ?? 0, y: $0.y ?? 0, width: $0.width ?? rect.width, height: $0.height ?? 0
         ))}
     }
 }
