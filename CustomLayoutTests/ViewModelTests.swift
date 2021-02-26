@@ -58,7 +58,7 @@ class ViewModelTests: XCTestCase {
             switch result {
             case .success:
                 XCTFail()
-            case .failure(let error):
+            case .failure:
                 exp.fulfill()
             }
         }
